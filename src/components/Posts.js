@@ -10,7 +10,7 @@ class Posts extends Component {
           加载文章
         </Button>
         {
-          posts.map( t => (
+          posts.map(t => (
             <div key={t.id}>
               {t.title}
             </div>

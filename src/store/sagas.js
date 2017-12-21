@@ -3,7 +3,7 @@ import * as types from '../constants/ActionTypes'
 
 import { fetchPosts } from '../actions'
 
-function * mySaga() {
+function * mySaga () {
   yield takeLatest(types.FETCH_POSTS_REQUEST, fetchPosts)
 }
 
